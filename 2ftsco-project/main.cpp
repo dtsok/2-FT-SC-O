@@ -208,7 +208,7 @@ void findTreeDepth(TreeNode *node)
 {
 	tree_depth = 0;
 	recursionInTreeDepth(node, tree_depth);
-	cout << "max depth = " << tree_depth << "\n";
+	cout << "tree depth = " << tree_depth << "\n";
 }
 
 void recursionInDeleteTree(TreeNode *node)
@@ -325,6 +325,7 @@ void avgCaseQueries(TreeNode *obj, int num_of_q)
 	cout << "#total queries: " << num_of_q << "\n";
 	cout << "total time (s):\t" << t << "\n";
 	cout << "avg. time (s):\t" << t / (double)num_of_q << "\n";
+	cout << "tree depth:\t" << tree_depth << "\n";
 	cout << "min depth:\t" << min_d << "\n";
 	cout << "max depth:\t" << max_d << "\n";
 	cout << "avg depth:\t" << depth_sum / (double)num_of_q << "\n";
