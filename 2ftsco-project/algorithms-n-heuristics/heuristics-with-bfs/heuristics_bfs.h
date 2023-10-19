@@ -1221,11 +1221,14 @@ class bi_sBFS_CH {
 		free(Q1);
 		free(found2);
 		free(Q2);
+		free(gOut);
 		free(gOutR);
+		free(firstOut);
 		free(firstOutR);
 		free(is_seed);
 		free(map);
 		for (int i = 0; i < N; i++) {
+			delete CH[i]->objReverseReach;
 			delete CH[i];
 		}
 		free(CH);
