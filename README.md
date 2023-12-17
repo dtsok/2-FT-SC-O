@@ -1,5 +1,5 @@
 # 2-FT-SC-O
-2-Fault-Tolerant Strong Connectivity Oracles
+Source code for the 2-Fault-Tolerant Strong Connectivity Oracles paper accepted in ALENEX2024. Link for the full version (arXiv) https://arxiv.org/abs/2311.00854
 
 1. Compile: Open a terminal in 2ftsco-project/ directory and write **make && make clean**
 2. Run: Use the executable **main** as follows:
@@ -24,3 +24,5 @@
         - Vertices should be labeled from 1 to N = number_of_nodes
         - First line of the file should be "p number_of_nodes number_of_edges"
         - Next lines (edges of the graph) "a from_vertex to_vertex"
+
+**Acknowledgement:** Part of the code is taken from the work of Georgiadis, Itialiano, Paudel: *Computing Critical Nodes in Directed Graphs* (https://dl.acm.org/doi/10.1145/3228332)
