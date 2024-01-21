@@ -1,4 +1,4 @@
-# 2-FT-SC-O
+# ALENEX'24: 2-FT-SC-O
 Source code for the 2-Fault-Tolerant Strong Connectivity Oracles paper accepted in ALENEX24. Link for the full version (arXiv) https://arxiv.org/abs/2311.00854
 
 1. Compile: Open a terminal in 2ftsco-project/ directory and write **make && make clean**
